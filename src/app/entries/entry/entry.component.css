@@ -1,0 +1,35 @@
+figure {
+    margin: 0;
+    border: #000 1px solid;
+    position: relative;
+}
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+:host {
+    display: block;
+    padding: 1em;
+}
+
+.actions {
+    padding: 1em 0;
+}
+
+.liked {
+    color: tomato;
+}
